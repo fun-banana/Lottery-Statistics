@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "J7rfCvsUcDKBsZIpn8qVqKoZeLQoR2G1pv0KvhhY/DQA6S1zC1v77Gag9CUJop2PGvelvWv973O1vNIursFaLg==",
+  "success": true,
+  "projectFilePath": "D:\\GitHub\\Lottery-Statistics\\Loto.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fun_banana\\.nuget\\packages\\csvhelper\\27.1.1\\csvhelper.27.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,54 @@
+D:\google drive\Projects\.net\Loto\bin\Debug\net5.0\Loto.exe
+D:\google drive\Projects\.net\Loto\bin\Debug\net5.0\Loto.deps.json
+D:\google drive\Projects\.net\Loto\bin\Debug\net5.0\Loto.runtimeconfig.json
+D:\google drive\Projects\.net\Loto\bin\Debug\net5.0\Loto.runtimeconfig.dev.json
+D:\google drive\Projects\.net\Loto\bin\Debug\net5.0\Loto.dll
+D:\google drive\Projects\.net\Loto\bin\Debug\net5.0\ref\Loto.dll
+D:\google drive\Projects\.net\Loto\bin\Debug\net5.0\Loto.pdb
+D:\google drive\Projects\.net\Loto\obj\Debug\net5.0\Loto.csproj.AssemblyReference.cache
+D:\google drive\Projects\.net\Loto\obj\Debug\net5.0\Loto.GeneratedMSBuildEditorConfig.editorconfig
+D:\google drive\Projects\.net\Loto\obj\Debug\net5.0\Loto.AssemblyInfoInputs.cache
+D:\google drive\Projects\.net\Loto\obj\Debug\net5.0\Loto.AssemblyInfo.cs
+D:\google drive\Projects\.net\Loto\obj\Debug\net5.0\Loto.csproj.CoreCompileInputs.cache
+D:\google drive\Projects\.net\Loto\obj\Debug\net5.0\Loto.dll
+D:\google drive\Projects\.net\Loto\obj\Debug\net5.0\ref\Loto.dll
+D:\google drive\Projects\.net\Loto\obj\Debug\net5.0\Loto.pdb
+D:\google drive\Projects\.net\Loto\obj\Debug\net5.0\Loto.genruntimeconfig.cache
+D:\google drive\Projects\.net\Loto\bin\Debug\net5.0\CsvHelper.dll
+D:\google drive\Projects\.net\Loto\obj\Debug\net5.0\Loto.csproj.CopyComplete
+C:\Users\tarno\Google Диск\Projects\.net\Loto\obj\Debug\net5.0\Loto.pdb
+C:\Users\tarno\Google Диск\Projects\.net\Loto\bin\Debug\net5.0\Loto.exe
+C:\Users\tarno\Google Диск\Projects\.net\Loto\bin\Debug\net5.0\Loto.deps.json
+C:\Users\tarno\Google Диск\Projects\.net\Loto\bin\Debug\net5.0\Loto.runtimeconfig.json
+C:\Users\tarno\Google Диск\Projects\.net\Loto\bin\Debug\net5.0\Loto.runtimeconfig.dev.json
+C:\Users\tarno\Google Диск\Projects\.net\Loto\bin\Debug\net5.0\Loto.dll
+C:\Users\tarno\Google Диск\Projects\.net\Loto\bin\Debug\net5.0\ref\Loto.dll
+C:\Users\tarno\Google Диск\Projects\.net\Loto\bin\Debug\net5.0\Loto.pdb
+C:\Users\tarno\Google Диск\Projects\.net\Loto\bin\Debug\net5.0\CsvHelper.dll
+C:\Users\tarno\Google Диск\Projects\.net\Loto\obj\Debug\net5.0\Loto.csproj.AssemblyReference.cache
+C:\Users\tarno\Google Диск\Projects\.net\Loto\obj\Debug\net5.0\Loto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tarno\Google Диск\Projects\.net\Loto\obj\Debug\net5.0\Loto.AssemblyInfoInputs.cache
+C:\Users\tarno\Google Диск\Projects\.net\Loto\obj\Debug\net5.0\Loto.AssemblyInfo.cs
+C:\Users\tarno\Google Диск\Projects\.net\Loto\obj\Debug\net5.0\Loto.csproj.CoreCompileInputs.cache
+C:\Users\tarno\Google Диск\Projects\.net\Loto\obj\Debug\net5.0\Loto.csproj.CopyComplete
+C:\Users\tarno\Google Диск\Projects\.net\Loto\obj\Debug\net5.0\Loto.dll
+C:\Users\tarno\Google Диск\Projects\.net\Loto\obj\Debug\net5.0\ref\Loto.dll
+C:\Users\tarno\Google Диск\Projects\.net\Loto\obj\Debug\net5.0\Loto.genruntimeconfig.cache
+D:\GitHub\Lottery-Statistics\bin\Debug\net5.0\Loto.exe
+D:\GitHub\Lottery-Statistics\bin\Debug\net5.0\Loto.deps.json
+D:\GitHub\Lottery-Statistics\bin\Debug\net5.0\Loto.runtimeconfig.json
+D:\GitHub\Lottery-Statistics\bin\Debug\net5.0\Loto.runtimeconfig.dev.json
+D:\GitHub\Lottery-Statistics\bin\Debug\net5.0\Loto.dll
+D:\GitHub\Lottery-Statistics\bin\Debug\net5.0\ref\Loto.dll
+D:\GitHub\Lottery-Statistics\bin\Debug\net5.0\Loto.pdb
+D:\GitHub\Lottery-Statistics\bin\Debug\net5.0\CsvHelper.dll
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\Loto.csproj.AssemblyReference.cache
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\Loto.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\Loto.AssemblyInfoInputs.cache
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\Loto.AssemblyInfo.cs
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\Loto.csproj.CoreCompileInputs.cache
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\Loto.csproj.CopyComplete
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\Loto.dll
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\ref\Loto.dll
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\Loto.pdb
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\Loto.genruntimeconfig.cache
