@@ -1,46 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
-      "CsvHelper/27.1.1": {
-        "type": "package",
-        "compile": {
-          "lib/net5.0/CsvHelper.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/CsvHelper.dll": {}
-        }
-      }
-    }
+    "net5.0": {}
   },
-  "libraries": {
-    "CsvHelper/27.1.1": {
-      "sha512": "lo5yypClBORR2XiWPRxQApaA4C2R4GVCIPVRt9HfaLxLmVQtg/KZiOYsd4luLgyOxkUatF9R0QdFQYk7Y2l0cw==",
-      "type": "package",
-      "path": "csvhelper/27.1.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "csvhelper.27.1.1.nupkg.sha512",
-        "csvhelper.nuspec",
-        "lib/net45/CsvHelper.dll",
-        "lib/net45/CsvHelper.xml",
-        "lib/net47/CsvHelper.dll",
-        "lib/net47/CsvHelper.xml",
-        "lib/net5.0/CsvHelper.dll",
-        "lib/net5.0/CsvHelper.xml",
-        "lib/netstandard2.0/CsvHelper.dll",
-        "lib/netstandard2.0/CsvHelper.xml",
-        "lib/netstandard2.1/CsvHelper.dll",
-        "lib/netstandard2.1/CsvHelper.xml"
-      ]
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": [
-      "CsvHelper >= 27.1.1"
-    ]
+    "net5.0": []
   },
   "packageFolders": {
     "C:\\Users\\fun_banana\\.nuget\\packages\\": {},
@@ -50,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\Lottery-Statistics\\Loto.csproj",
-      "projectName": "Loto",
-      "projectPath": "D:\\GitHub\\Lottery-Statistics\\Loto.csproj",
+      "projectUniqueName": "D:\\GitHub\\Lottery-Statistics\\LotoEachPos.csproj",
+      "projectName": "LotoEachPos",
+      "projectPath": "D:\\GitHub\\Lottery-Statistics\\LotoEachPos.csproj",
       "packagesPath": "C:\\Users\\fun_banana\\.nuget\\packages\\",
       "outputPath": "D:\\GitHub\\Lottery-Statistics\\obj\\",
       "projectStyle": "PackageReference",
@@ -88,12 +53,6 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
-        "dependencies": {
-          "CsvHelper": {
-            "target": "Package",
-            "version": "[27.1.1, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

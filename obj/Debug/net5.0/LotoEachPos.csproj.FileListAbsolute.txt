@@ -1,0 +1,32 @@
+D:\google drive\Projects\.net\LotoEachPos\bin\Debug\net5.0\LotoEachPos.exe
+D:\google drive\Projects\.net\LotoEachPos\bin\Debug\net5.0\LotoEachPos.deps.json
+D:\google drive\Projects\.net\LotoEachPos\bin\Debug\net5.0\LotoEachPos.runtimeconfig.json
+D:\google drive\Projects\.net\LotoEachPos\bin\Debug\net5.0\LotoEachPos.runtimeconfig.dev.json
+D:\google drive\Projects\.net\LotoEachPos\bin\Debug\net5.0\LotoEachPos.dll
+D:\google drive\Projects\.net\LotoEachPos\bin\Debug\net5.0\ref\LotoEachPos.dll
+D:\google drive\Projects\.net\LotoEachPos\bin\Debug\net5.0\LotoEachPos.pdb
+D:\google drive\Projects\.net\LotoEachPos\obj\Debug\net5.0\LotoEachPos.csproj.AssemblyReference.cache
+D:\google drive\Projects\.net\LotoEachPos\obj\Debug\net5.0\LotoEachPos.GeneratedMSBuildEditorConfig.editorconfig
+D:\google drive\Projects\.net\LotoEachPos\obj\Debug\net5.0\LotoEachPos.AssemblyInfoInputs.cache
+D:\google drive\Projects\.net\LotoEachPos\obj\Debug\net5.0\LotoEachPos.AssemblyInfo.cs
+D:\google drive\Projects\.net\LotoEachPos\obj\Debug\net5.0\LotoEachPos.csproj.CoreCompileInputs.cache
+D:\google drive\Projects\.net\LotoEachPos\obj\Debug\net5.0\LotoEachPos.dll
+D:\google drive\Projects\.net\LotoEachPos\obj\Debug\net5.0\ref\LotoEachPos.dll
+D:\google drive\Projects\.net\LotoEachPos\obj\Debug\net5.0\LotoEachPos.pdb
+D:\google drive\Projects\.net\LotoEachPos\obj\Debug\net5.0\LotoEachPos.genruntimeconfig.cache
+D:\GitHub\Lottery-Statistics\bin\Debug\net5.0\LotoEachPos.exe
+D:\GitHub\Lottery-Statistics\bin\Debug\net5.0\LotoEachPos.deps.json
+D:\GitHub\Lottery-Statistics\bin\Debug\net5.0\LotoEachPos.runtimeconfig.json
+D:\GitHub\Lottery-Statistics\bin\Debug\net5.0\LotoEachPos.runtimeconfig.dev.json
+D:\GitHub\Lottery-Statistics\bin\Debug\net5.0\LotoEachPos.dll
+D:\GitHub\Lottery-Statistics\bin\Debug\net5.0\ref\LotoEachPos.dll
+D:\GitHub\Lottery-Statistics\bin\Debug\net5.0\LotoEachPos.pdb
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\LotoEachPos.csproj.AssemblyReference.cache
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\LotoEachPos.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\LotoEachPos.AssemblyInfoInputs.cache
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\LotoEachPos.AssemblyInfo.cs
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\LotoEachPos.csproj.CoreCompileInputs.cache
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\LotoEachPos.dll
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\ref\LotoEachPos.dll
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\LotoEachPos.pdb
+D:\GitHub\Lottery-Statistics\obj\Debug\net5.0\LotoEachPos.genruntimeconfig.cache

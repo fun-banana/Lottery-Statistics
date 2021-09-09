@@ -1,25 +1,8 @@
 ﻿using System;
 using System.IO;
 
-namespace Loto
-{  
-    public class Number
-    {
-        public int num;
-        public int count;
-        public Number(int num)
-        {
-            this.num = num;
-            this.count = 0;
-        }
-
-        public Number()
-        {
-            this.num = 0;
-            this.count = 0;
-        }
-    }
-
+namespace LotoEachPos
+{
     class Program
     {
         static string LinkLotoFile = "https://www.pais.co.il/Lotto/lotto_resultsDownload.aspx";
@@ -40,11 +23,10 @@ namespace Loto
                     }
                 }
             }
-
             return numbers;
         }
 
-        public static int GetNumber(string str)
+        public static int GetNumber(string str) // 0 = undefined symbol
         {
             try
             {
@@ -56,71 +38,56 @@ namespace Loto
             }
         }
 
-        static void Main(string[] args)
-        {
-            Number[] MainNumbers = new Number[37];
-
+        public static Number[] FillArray(Number[] numbers)
+        { 
             for (int i = 0; i < 37; i++)     
             {
-                MainNumbers[i] = new Number(i + 1);
+                numbers[i] = new Number(i + 1);
             }
+            return numbers;
+        }
 
-            Number[] StrongNumbers = new Number[7];
-
-            for (int i = 0; i < 7; i++)
-            {
-                StrongNumbers[i] = new Number(i + 1);
-            }
-
+        public static void DownloadLotoFile()
+        {
             using (var client = new System.Net.WebClient())
             {
                 client.DownloadFile(LinkLotoFile,path);
             }
+        }
 
+        static void Main(string[] args)
+        {
+            DownloadLotoFile();
             string[] lines = System.IO.File.ReadAllLines(path);
-
+            
             Console.WriteLine("\n\nStart\n\n");
 
-            foreach(string line in lines)
+            for (int i = 2; i < 9; i++)
             {
-                string[] columns = line.Split(',');
+                Number[] numbers = FillArray(new Number[37]);
 
-                for (int i = 2; i < 9; i++)
+                foreach(string line in lines)
                 {
-                    int tempNum = GetNumber(columns[i]);
-                    
-                    if (tempNum == 0)
-                    {
+                    string[] columns = line.Split(',');
 
-                    }
-                    else if (i != 8) 
+                    int temp = GetNumber(columns[i]);
+
+                    if (temp != 0)
                     {
-                        MainNumbers[tempNum - 1].count++;
+                        numbers[temp-1].count++;
                     }
-                    else
-                    {
-                        StrongNumbers[tempNum - 1].count++;
-                    }
+
+                    if (columns[1].CompareTo("03/01/2012") == 0) { break; } // "03/01/2012"
                 }
-                if (columns[1].CompareTo("03/01/2012") == 0) { break;} // "03/01/2012"
-            }
 
-            Console.WriteLine("\n\nMain Numbers: \n\n");
+                numbers = SortNumbers(numbers);
 
-            MainNumbers = SortNumbers(MainNumbers);
+                Console.WriteLine("\nLine: " + ( i - 1 ) + "\n");
 
-            for (int i = 0; i < MainNumbers.Length; i++)
-            {
-                Console.WriteLine(MainNumbers[i].num + "\t:\t" + MainNumbers[i].count);
-            }
-
-            Console.WriteLine("\n\nStrong Numbers: \n\n");
-
-            StrongNumbers = SortNumbers(StrongNumbers);
-
-            for (int i = 0; i < StrongNumbers.Length; i++)
-            {
-                Console.WriteLine(StrongNumbers[i].num + "\t:\t" + StrongNumbers[i].count);
+                for (int k = 0; k < numbers.Length; k++)
+                {
+                    Console.WriteLine(numbers[k].num + "\t:\t" + numbers[k].count);
+                }
             }
 
             File.Delete(path);
