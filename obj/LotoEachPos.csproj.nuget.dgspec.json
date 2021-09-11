@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\Lottery-Statistics\\LotoEachPos.csproj": {}
+    "C:\\Users\\tarno\\Documents\\GitHub\\Lottery-Statistics\\LotoEachPos.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\Lottery-Statistics\\LotoEachPos.csproj": {
+    "C:\\Users\\tarno\\Documents\\GitHub\\Lottery-Statistics\\LotoEachPos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\Lottery-Statistics\\LotoEachPos.csproj",
+        "projectUniqueName": "C:\\Users\\tarno\\Documents\\GitHub\\Lottery-Statistics\\LotoEachPos.csproj",
         "projectName": "LotoEachPos",
-        "projectPath": "D:\\GitHub\\Lottery-Statistics\\LotoEachPos.csproj",
-        "packagesPath": "C:\\Users\\fun_banana\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\Lottery-Statistics\\obj\\",
+        "projectPath": "C:\\Users\\tarno\\Documents\\GitHub\\Lottery-Statistics\\LotoEachPos.csproj",
+        "packagesPath": "C:\\Users\\tarno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tarno\\Documents\\GitHub\\Lottery-Statistics\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Visual studio\\SDK\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\fun_banana\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\tarno\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -60,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
