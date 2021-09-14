@@ -7,6 +7,7 @@ namespace LotoEachPos
     {
         static string LinkLotoFile = "https://www.pais.co.il/Lotto/lotto_resultsDownload.aspx";
         static string path = "Lotto.csv";
+        static string resultPath = "Result.csv";
 
         public static Number[] SortNumbers(Number[] numbers)
         {
@@ -55,9 +56,29 @@ namespace LotoEachPos
             }
         }
 
+        public static void WriteResult(Number[] numbers, int index)
+        {
+            StreamWriter sw = File.AppendText(resultPath);                
+            {
+                sw.Write("|" + index + "| ");
+                foreach (Number number in numbers)
+                {
+                    sw.Write(number.num + "\t"); 
+                }
+                sw.WriteLine();   
+            }
+            sw.Close();
+        }
+
+        public static void ClearResultFile()
+        {
+            System.IO.File.WriteAllText(resultPath,string.Empty);
+        }
+
         static void Main(string[] args)
         {
             DownloadLotoFile();
+            ClearResultFile();
             string[] lines = System.IO.File.ReadAllLines(path);
             
             Console.WriteLine("\n\nStart\n\n");
@@ -81,6 +102,7 @@ namespace LotoEachPos
                 }
 
                 numbers = SortNumbers(numbers);
+                WriteResult(numbers, i - 1);
 
                 Console.WriteLine("\nLine: " + ( i - 1 ) + "\n");
 
